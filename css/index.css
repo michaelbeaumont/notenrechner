@@ -1,0 +1,164 @@
+@import url(https://fonts.googleapis.com/css?family=Lora|Oleo+Script);
+
+*[draggable=true] {
+  -moz-user-select:none;
+  -khtml-user-drag: element;
+  cursor: move;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.strike {
+    text-decoration:line-through;
+    opacity: 0.5;
+}
+
+.weight-1 {
+    background-color: rgba(200,100,5, 0.2);
+    //background-color: rgba(255,114,99, 0.2);
+}
+.weight-2 {
+    background-color: rgba(200,100,5, 0.5);
+    //background-color: rgba(255,114,99, 0.5);
+}
+.weight-3 {
+    background-color: rgba(200,100,5, 0.7);
+    //background-color: rgba(255,114,99, 0.7);
+}
+.weight-4 {
+    background-color: rgba(200,100,5, 0.9);
+    //background-color: rgba(255,114,99, 0.9);
+}
+
+body {
+    text-align: center;
+    font-family: 'Lora', serif;
+}
+
+.jumbotron {
+    padding: 1em 0em;
+    margin-bottom: 0;
+    font-family: 'Oleo Script', cursive;
+    background-color: rgba(200,139,5,1);
+}
+
+div#icons {
+    margin: 1em 0em; 
+    position: relative;
+    vertical-align: top;
+}
+
+div#icons a {
+    position: relative;
+    padding: 5px;
+}
+
+div#icons a:not(a:last-child)::after {
+    position:absolute;
+    right: -1px;
+    content: "|";
+}
+
+a#switch-view::before {
+    font-family: FontAwesome;
+    content: "\f0c9 ";
+    display: inline-block;
+    padding-right: 3px;
+    padding-bottom: 3px;
+    vertical-align: middle;
+}
+
+div#overall-note {
+    position: absolute;
+    font-size: 3em;
+    left: 10%;
+    top: -0.4em;
+}
+
+@media only screen and (max-width : 760px) {
+    div#icons {
+        margin: 0em; 
+    }
+    div#overall-note {
+        margin-top: 0em;
+        position: static;
+    }
+}
+
+
+table {
+    padding: 0em 1em;
+    vertical-align: top;
+    display: inline-block;
+}
+
+table.classes {
+    border-collapse: separate;
+    border-spacing: 0px 5px;
+    margin: auto;
+}
+
+table.classes tr {
+    margin: 5px;
+}
+
+table.classes tbody tr.area-title th {
+    background-color: LightGray;
+    background-color: rgba(255,206,99, 0.3);
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-size: 1.2em;
+}
+
+.num {
+    padding: 0px 10px;
+    margin: 10px;
+}
+
+.num input {
+    margin: auto;
+}
+
+table.classes td.del {
+    padding-left: 5px;
+    background-color: white;
+    color: rgba(255,114,99, 1.0);
+}
+
+table.classes td.add {
+    padding-left: 5px;
+    background-color: white;
+    color: rgba(4,151,36, 1.0);
+}
+
+table.classes td:first-child, table.classes th:first-child{
+    padding-left: 5px;
+}
+
+table.classes td:last-child, table.classes th:last-child{
+    padding-right: 5px;
+}
+
+input.form-control {
+    line-height: 0.5em;
+    height: 2em;
+    width: 2em;
+    padding: 2px;
+}
+
+input.name {
+    margin: 0px -2%;
+    padding: 0px;
+    width: 105%;
+}
+
+input.error {
+    background-color: rgba(255,114,99, 1.0);
+}
