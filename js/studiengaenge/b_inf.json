@@ -1,0 +1,39 @@
+[
+    {"name":"Praktische-Informatik", "classes":[
+        {"name":"Programmierung", "sem":1, "weight":8.0, "type":"", "note":0.0}
+        ,{"name":"Datenstrukturen und Algorithmen", "sem":2, "weight":8.0, "type":"", "note":0.0}
+        ,{"name":"Datenbanken und Informationssysteme", "sem":4, "weight":6.0, "type":"", "note":0.0}
+        ,{"name":"Softwaretechnik", "sem":3, "weight":6.0, "type":"", "note":0.0}
+    ]},
+    {"name":"Technische-Informatik", "classes":[
+        {"name":"Einführung in die technische Informatik", "sem":1, "weight":6.0, "type":"", "note":0.0}
+        ,{"name":"Betriebsysteme und Systemsoftware", "sem":2, "weight":6.0, "type":"", "note":0.0}
+        ,{"name":"Datenkommunikation und Sicherheit", "sem":4, "weight":6.0, "type":"", "note":0.0}
+    ]},
+    {"name":"Theoretische-Informatik", "classes":[
+        {"name":"Formale Systeme, Automaten, Prozesse", "sem":2, "weight":6.0, "type":"", "note":0.0}
+        ,{"name":"Berechenbarkeit und Komplexität", "sem":3, "weight":6.0, "type":"", "note":0.0}
+        ,{"name":"Mathematische Logik", "sem":4, "weight":6.0, "type":"", "note":0.0}
+    ]},
+    {"name":"Mathematik", "classes":[
+        {"name":"Analysis for Informatiker", "sem":1, "weight":8.0, "type":"", "note":0.0}
+        ,{"name":"Lineare Algebra", "sem":2, "weight":6.0, "type":"", "note":0.0}
+        ,{"name":"Numerisches Rechnen", "sem":3, "weight":6.0, "type":"", "note":0.0}
+        ,{"name":"Einführung in die angewandte Stochastik", "sem":2, "weight":6.0, "type":"", "note":0.0}
+        ,{"name":"Diskrete Strukturen", "sem":1, "weight":6.0, "type":"", "note":0.0}
+
+    ]},
+    {"name":"Sonstiges", "classes":[
+        {"name":"Proseminar", "sem":3, "weight":3.0, "type":"", "note":0.0}
+        ,{"name":"Seminar", "sem":5, "weight":4.0, "type":"", "note":0.0}
+
+    ]},
+    {"name":"Wahlpflichtfächer", "modifiable": true, "unstrikeable":true, "classes":[
+    ]},
+    {"name":"Anwendungsfach", "modifiable": true, "classes":[
+    ]},
+    {"name":"Bachelor-Arbeit", "unstrikeable":true, "classes":[
+        {"name":"Kolloquium", "sem":6, "weight":4.5, "type":"", "note":0.0},
+        {"name":"Arbeit", "sem":6, "weight":18.0, "type":"", "note":0.0}
+    ]}
+]
